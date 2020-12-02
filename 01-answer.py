@@ -29,7 +29,7 @@ def part_two():
                 continue
 
             for m, content3 in enumerate(txt_file):
-                if i == m and l == m:
+                if i == m or l == m:
                     continue
 
                 if int(content.strip()) + int(content2.strip()) + int(content3.strip()) == 2020:
