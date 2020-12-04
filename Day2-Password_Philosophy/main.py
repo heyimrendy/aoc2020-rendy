@@ -1,4 +1,4 @@
-with open("./02-input.txt") as f:
+with open("./input.txt") as f:
     text_list = [ text.strip() for text in f.readlines()]
 
 def part_one():

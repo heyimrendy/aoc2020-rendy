@@ -1,4 +1,4 @@
-with open("./03-input.txt") as f:
+with open("./input.txt") as f:
     map_coor = [coor.strip() for coor in f.readlines()]
 
 def part_one():

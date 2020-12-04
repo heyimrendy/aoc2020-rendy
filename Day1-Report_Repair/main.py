@@ -1,4 +1,4 @@
-with open("./01-input.txt") as f:
+with open("./input.txt") as f:
     txt_file = f.readlines()
 
 def part_one():
